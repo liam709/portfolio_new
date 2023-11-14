@@ -7,16 +7,14 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Blog from "./pages/Blog";
 import Resume from "./pages/Resume";
-import Footer from "./components/Footer";
-
-
 
 export default function App() {
 
   const URI = "/portfolio_new"
+  
   return (
 
-      <Router basename={URI}>
+      <Router >
         {/**Todo */}
         <Routes>
           <Route path="/" element={<Home />} />

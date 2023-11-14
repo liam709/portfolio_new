@@ -12,19 +12,19 @@ export default function Info() {
     <section id="info">
       <div>
       </div>
-      <div className="flex flex-col text-white mb-6  ">
+      <div className="flex flex-col mb-6  ">
         <div className="flex flex-col md:mb-0">
-          <p className="text-5xl mb-5">
+          <p className="text-5xl mb-5 text-grn-100">
           Liam Kelly
           </p>
-          <h2 className="mb-5 text-3xl">Software Developer</h2>
+          <h2 className="mb-5 text-3xl text-grn-200">Software Developer</h2>
           <div>
           </div>
-          <div className="">
+          <div className="text-grn-300 text-lg">
            I'm a Programmer based out of St. John's, NL.
           </div>
           <div>
-            <p>I like building things on the web!</p>
+            <p className="text-grn-300 text-lg">I like building things on the web!</p>
           </div>
         </div>
       </div>

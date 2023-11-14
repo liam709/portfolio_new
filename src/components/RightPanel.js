@@ -9,11 +9,10 @@ import About from "./About";
 export default function RightPanel() {
   
     return (
-        <div className="right-panel flex flex-col bg-gray-800 md:w-1/2 sm:justify-center ">
+        <div className="right-panel flex flex-col md:w-1/2 sm:justify-center ">
             <About/>
             <Projects/>
-            <Skills/>
-            
+            <Skills/>    
         </div>
     )
 }

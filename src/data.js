@@ -1,11 +1,11 @@
 export const projects = [
   {
-    title: "Game of Life Simulation",
-    subtitle: "Java",
-    description:
-      "A simulation of John Conway's Game of Life. This project was completed in a Nature-Inspired Computing class, where we explored cellular automata, self-organization, and emergent behavior in complex systems. The Game of Life provided a fascinating example of how simple rules can lead to intricate patterns and dynamic behavior, offering valuable insights into the underlying principles of life, evolution, and computation.",
-    image: "./gol.png",
-    code_link: "https://github.com/liam709/gameOfLife",
+    title: "Job Board",
+    subtitle: "React, Express, Node, MongoDB, Material-UI, Heroku",
+    description: "A full-stack job board application to enhance my job search experience. Constructed using the JBoard API from RapidAPI, this tool scans through numerous popular job boards such as LinkedIn, Glassdoor, Indeed, and many others. Simplifying the job search processs by eliminating the need to navigate multiple websites to see job postings.",
+    image: "./jb_pic.png",
+    code_link: "https://github.com/liam709/jobBoard",
+    demo_link: "https://jboard-cd715d6120ad.herokuapp.com/"
   },
   {
     title: "Pathfinding Algorithm Visualizer",
@@ -17,19 +17,19 @@ export const projects = [
     demo_link: "https://liam709.github.io/pathfinding/"
   },
   {
-    title: "Job Board",
-    subtitle: "React, Express, Node, MongoDB, Material-UI, Heroku",
-    description: "A full-stack job board application to enhance my job search experience. Constructed using the JBoard API from RapidAPI, this tool scans through numerous popular job boards such as LinkedIn, Glassdoor, Indeed, and many others. Simplifying the job search processs by eliminating the need to navigate multiple websites to see job postings.",
-    image: "./jb_pic.png",
-    code_link: "https://github.com/liam709/jobBoard",
-    demo_link: "https://jboard-cd715d6120ad.herokuapp.com/"
-  },
-  {
     title: "Weather Application",
     subtitle: "JavaScript, HTML, CSS, MongoDB, JQuery, Mocha",
     description: "A full-stack weather dashboard application using OpenWeatherMap API’s to incorporate fetched weather data. Custom modules were implemented for functions such as user registration, user login, searching, bookmarking, and deleting bookmarked weather data. Follows a MVC design pattern. Mocha was used for testing the potential usage scenarios.",
     image: "./weather.png",
     code_link: "https://github.com/liam709/weatherDashboard"
+  },
+  {
+    title: "Game of Life Simulation",
+    subtitle: "Java",
+    description:
+      "A simulation of John Conway's Game of Life. This project was completed in a Nature-Inspired Computing class, where we explored cellular automata, self-organization, and emergent behavior in complex systems. The Game of Life provided a fascinating example of how simple rules can lead to intricate patterns and dynamic behavior, offering valuable insights into the underlying principles of life, evolution, and computation.",
+    image: "./gol.png",
+    code_link: "https://github.com/liam709/gameOfLife",
   },
 ];
 
@@ -42,7 +42,7 @@ export const dev_skills = [
   "Node.js",
   "MongoDB",
   "PostgresSQL",
-  "Android Studio"
+  "Android"
 ];
 
 export const libs = [
@@ -52,7 +52,7 @@ export const libs = [
   "Express",
   "JQuery",
   "Mocha",
-  "Selenium Web Driver",
+  "Selenium",
   "Espresso"
 ]
 
@@ -60,7 +60,6 @@ export const tools = [
   "Git",
   "Github",
   "Firebase",
-  "Digital Ocean",
   "WordPress"
 ]
 

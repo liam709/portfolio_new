@@ -1,10 +1,10 @@
 import React from "react";
-import Footer from "../components/Footer";
 
+//todo
 export default function Resume() {
     return (
         <div>
-            Resume pageeeee
+            Resume page
         </div>
     )
 }

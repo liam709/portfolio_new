@@ -15,31 +15,28 @@ export default function Navbar() {
           }
         });
       },
-      { threshold: .60, rootMargin: "0px"} // Adjust the rootMargin as needed
+      { threshold: .60, rootMargin: "0px" } // Adjust the rootMargin as needed
     );
-
     // Loop over all sections
     document.querySelectorAll(".section").forEach((section, index) => {
       observer.current.observe(section);
-
       // Set the first section to active initially
       if (index === 0) {
         setActiveSection(section.id);
       }
     });
-
   }, []);
 
   return (
-    <div className="nav flex flex col">
-      <nav className="py-1 flex flex-col bg-gray-800  text-2xl ">
-        <a href="#about" className={activeSection === "about" ? "active" : ""}>
+    <div className="nav flex flex col mb-16">
+      <nav className="py-1 flex flex-col text-2xl h-52 justify-evenly ">
+        <a href="#about" className={activeSection === "about" ? "active" : "text-grn-300"}>
           About
         </a>
-        <a href="#projects" className={activeSection === "projects" ? "active" : ""}>
+        <a href="#projects" className={activeSection === "projects" ? "active" : "text-grn-300"}>
           Projects
         </a>
-        <a href="#skills" className={activeSection === "skills" ? "active" : ""}>
+        <a href="#skills" className={activeSection === "skills" ? "active" : "text-grn-300"}>
           Skills
         </a>
       </nav>
