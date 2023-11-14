@@ -9,12 +9,12 @@ import Blog from "./pages/Blog";
 import Resume from "./pages/Resume";
 
 export default function App() {
-
+  
   const URI = "/portfolio_new"
   
   return (
 
-      <Router >
+      <Router basename={URI}>
         {/**Todo */}
         <Routes>
           <Route path="/" element={<Home />} />
