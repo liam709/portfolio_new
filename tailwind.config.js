@@ -17,6 +17,9 @@ module.exports = {
         "900": "#07120e"
       }
     }},
+    container: {
+      center: true,
+    },
   },
   variants: {
     extend: {},

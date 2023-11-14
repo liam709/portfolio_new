@@ -28,8 +28,8 @@ export default function Navbar() {
   }, []);
 
   return (
-    <div className="nav flex flex col mb-16">
-      <nav className="py-1 flex flex-col text-2xl h-52 justify-evenly ">
+    <div className="nav flex">
+      <nav className="flex flex-col text-2xl h-52">
         <a href="#about" className={activeSection === "about" ? "active" : "text-grn-300"}>
           About
         </a>

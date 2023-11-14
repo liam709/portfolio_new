@@ -6,6 +6,11 @@
     color: white;
 }
 
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
 .progress-bar {
     position: fixed;
     top: 0;

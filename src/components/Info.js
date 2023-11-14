@@ -13,14 +13,14 @@ export default function Info() {
       <div>
       </div>
       <div className="flex flex-col mb-6  ">
-        <div className="flex flex-col md:mb-0">
+        <div className="flex flex-col ">
           <p className="text-5xl mb-5 text-grn-100">
           Liam Kelly
           </p>
           <h2 className="mb-5 text-3xl text-grn-200">Software Developer</h2>
           <div>
           </div>
-          <div className="text-grn-300 text-lg">
+          <div className="text-grn-300 text-lg w-full">
            I'm a Programmer based out of St. John's, NL.
           </div>
           <div>
