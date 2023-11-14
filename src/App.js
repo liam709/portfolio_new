@@ -16,7 +16,7 @@ export default function App() {
   const URI = "https://liam709.github.io/portfolio_new/"
   return (
 
-      <Router>
+      <Router basename={URI}>
         {/**Todo */}
         <Routes>
           <Route path="/" element={<Home />} />
