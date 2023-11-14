@@ -13,7 +13,7 @@ import Footer from "./components/Footer";
 
 export default function App() {
 
-  const URI = "https://liam709.github.io/port/"
+  const URI = "https://liam709.github.io/portfolio_new/"
   return (
 
       <Router>
