@@ -12,7 +12,7 @@ export default function Info() {
     <section id="info">
       <div>
       </div>
-      <div className="flex flex-col text-white mb-6 ">
+      <div className="flex flex-col text-white mb-6  ">
         <div className="flex flex-col md:mb-0">
           <p className="text-5xl mb-5">
           Liam Kelly

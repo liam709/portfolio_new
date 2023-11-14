@@ -6,7 +6,7 @@ import Links from "./Links";
 export default function LeftPanel() {
 
     return (
-        <div className="left-side flex flex-col lg:h-screen lg:justify-evenly md:justify-evenly lg:fixed md:fixed p-12 ml-10 ">
+        <div className="left-side flex flex-col lg:h-screen lg:justify-around md:justify-evenly lg:fixed md:fixed p-6 ">
             <Info />
             <Navbar/>
             <Links/>

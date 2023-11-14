@@ -32,7 +32,7 @@ export default function Navbar() {
 
   return (
     <div className="nav flex flex col">
-      <nav className="py-1 flex flex-col bg-gray-800 text-xl">
+      <nav className="py-1 flex flex-col bg-gray-800  text-2xl ">
         <a href="#about" className={activeSection === "about" ? "active" : ""}>
           About
         </a>
