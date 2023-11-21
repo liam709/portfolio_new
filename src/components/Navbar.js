@@ -39,6 +39,7 @@ export default function Navbar() {
         <a href="#skills" className={activeSection === "skills" ? "active" : "text-grn-300"}>
           Skills
         </a>
+        
       </nav>
     </div>
   );

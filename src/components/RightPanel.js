@@ -1,7 +1,4 @@
 import React from "react"
-import Links from "./Links"
-import Info from "./Info";
-import Navbar from "./Navbar";
 import Projects from "./Projects";
 import Skills from "./Skills";
 import About from "./About";

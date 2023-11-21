@@ -14,7 +14,7 @@ export default function App() {
   
   return (
 
-      <Router basename={URI} >
+      <Router>
         {/**Todo */}
         <Routes>
           <Route path="/" element={<Home />} />

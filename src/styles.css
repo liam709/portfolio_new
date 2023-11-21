@@ -2,6 +2,10 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
+
+body {
+    --red: #FFFFFF;
+}
 .active {
     color: white;
 }
@@ -11,12 +15,3 @@
     grid-template-columns: 1fr 1fr;
 }
 
-.progress-bar {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 10px;
-    background: var(--green);
-    transform-origin: 0%;
-}
