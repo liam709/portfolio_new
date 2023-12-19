@@ -21,10 +21,10 @@ export default function Info() {
           <div>
           </div>
           <div className="text-grn-300 text-lg w-full">
-           I'm a Programmer based out of St. John's, NL.
+           I'm a Programmer based out of St. John's, NL,
           </div>
           <div>
-            <p className="text-grn-300 text-lg">I like building things on the web!</p>
+            <p className="text-grn-300 text-lg">and I like building things on the web!</p>
           </div>
         </div>
       </div>
